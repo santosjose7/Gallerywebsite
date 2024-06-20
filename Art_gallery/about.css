@@ -1,0 +1,94 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header styles */
+header {
+    background-color: #f2f2f2;
+    padding: 20px 0;
+}
+
+/* Navigation styles */
+.navs {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navs li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navs li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Content styles */
+.content {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 30px;
+
+    
+}
+
+.welcome {
+    width: 40%;
+    margin-left: 40px;
+    background-color: #f2f2f2;
+    padding: 40px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+.mission {
+    height: 300px;
+    width: 40%;
+    margin-left: 75px;
+    padding: 40px;
+    background-color: #f2f2f2;
+    border-radius: 30px;
+}
+
+.extra{
+    background-color: #f2f2f2;
+    padding: 10px;
+    width: 80%;
+    height: 70px;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-left: 150px;
+    margin-bottom: 100px;
+}
+
+.content h1 {
+    font-size: 32px;
+    color: #333;
+}
+
+.content p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+}
